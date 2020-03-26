@@ -56,4 +56,9 @@ public class LoginController {
 
         loginMessage.setText("Incorrect login!");
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> origin/master

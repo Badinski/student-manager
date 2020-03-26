@@ -4,6 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Text?>
+<<<<<<< HEAD
 <?import java.net.URL?>
 <GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" vgap="10" prefWidth="600" prefHeight="400"
           xmlns="http://javafx.com/javafx/8.0.172-ea"
@@ -14,6 +15,15 @@
     </padding>
     <Text id="title-text" text="FIS - Student Manager" GridPane.columnIndex="0" GridPane.columnSpan="2"
           GridPane.rowIndex="0"/>
+=======
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" vgap="10" prefWidth="600" prefHeight="400"
+          xmlns="http://javafx.com/javafx/8.0.172-ea"
+          fx:controller="loose.oose.fis.lab.student.manager.controllers.LoginController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
+    </padding>
+    <Text id="title-text" text="FIS - Student Manager" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0"/>
+>>>>>>> origin/master
 
     <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
 
@@ -28,7 +38,12 @@
     </HBox>
 
     <Text fx:id="loginMessage" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+<<<<<<< HEAD
     <stylesheets>
         <URL value="@../css/styles.css"/>
     </stylesheets>
 </GridPane>
+=======
+</GridPane>
+
+>>>>>>> origin/master
